@@ -228,7 +228,7 @@ height: 166px;
 .inner-btm{
     margin-top: 10px;
     height: 140px;
-    border: 1.5px solid #cccccc;
+    border: 1px solid #cccccc;
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
    
@@ -269,9 +269,9 @@ margin-left: 500px;
     text-decoration: none;
 }
 
-
+/** Footeer Line **/
 .footerdiv{
-height: 984px;
+height: 550px;
 background-color:#232F3E;
 }
 .botom-option{
@@ -315,26 +315,26 @@ background-color:#232F3E;
     font-size: 1rem;
     color: #dddddd;
     margin-top: 10px;
-    font-weight: lighter;
+    font-weight: lighter; 
 }
- /** Footeer Line **/
+ 
 .footerline{
-    margin-bottom: 500px;
-    height:70px;
+    margin-top: 5px;
+    height:100px;
     border-top:2px solid #007875;
 }
 
 .footerline-option{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 .btm-logo{
     height: 35px;
     width: 120px;
     border:none;
-    margin-left: 250px;
     margin-right: 100px;
     background-image: url(Image/btmlogo.jpg);
     background-size: cover;
@@ -393,4 +393,52 @@ background-color:#232F3E;
 .country i{
     color: red;
     margin-left: 3px;
+}
+
+.footer-nav{
+    height: 620px;
+    background-color: #131A22;   
+}
+
+.footer-nav-contents{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+.footer-nav-box{
+height: 68px;
+width: 120px;
+margin: 20px;
+color: #769999;
+font-size: 0.8rem;
+margin-top: 10px;
+}
+.footer-nav-box h4{
+    color: white;
+}
+
+.footerlast{
+    height:38px;
+    background-color: #131A22;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    color: white;
+    font-size: 0.7rem;
+  text-align: center;
+  
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.footerlast p{
+    color: white;
+    font-size: 0.7rem;
+    justify-content: space-evenly;
 }
